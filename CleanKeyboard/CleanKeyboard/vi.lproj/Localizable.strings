@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "Chế độ vệ sinh bàn phím an toàn";
+
+/* Status badge */
+"status.locked" = "Bàn phím đã khoá";
+"status.active" = "Bàn phím đang hoạt động";
+
+/* Description text */
+"description.locked" = "Tất cả phím đã bị chặn.\nBạn có thể vệ sinh bàn phím an toàn.";
+"description.unlocked" = "Nhấn nút bên dưới để khoá\nbàn phím trước khi vệ sinh.";
+
+/* Toggle button */
+"button.unlock" = "Mở khoá bàn phím";
+"button.lock" = "Khoá bàn phím";
+
+/* Accessibility alert */
+"alert.title" = "Yêu cầu quyền trợ năng";
+"alert.openSettings" = "Mở Cài đặt hệ thống";
+"alert.cancel" = "Huỷ";
+"alert.message" = "CleanKeyboard cần quyền trợ năng để chặn sự kiện bàn phím.\n\nVào Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Trợ năng và bật CleanKeyboard.";
+
+/* Language picker */
+"language.picker" = "Ngôn ngữ";

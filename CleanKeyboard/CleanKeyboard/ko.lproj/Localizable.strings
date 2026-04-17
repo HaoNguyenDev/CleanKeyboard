@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "안전한 키보드 청소 모드";
+
+/* Status badge */
+"status.locked" = "키보드 잠김";
+"status.active" = "키보드 활성";
+
+/* Description text */
+"description.locked" = "모든 키 입력이 차단되었습니다.\n이제 안전하게 키보드를 청소할 수 있습니다.";
+"description.unlocked" = "아래 버튼을 눌러 키보드를\n잠그고 청소를 시작하세요.";
+
+/* Toggle button */
+"button.unlock" = "키보드 잠금 해제";
+"button.lock" = "키보드 잠금";
+
+/* Accessibility alert */
+"alert.title" = "손쉬운 사용 권한 필요";
+"alert.openSettings" = "시스템 설정 열기";
+"alert.cancel" = "취소";
+"alert.message" = "CleanKeyboard는 키보드 이벤트를 차단하기 위해 손쉬운 사용 접근 권한이 필요합니다.\n\n시스템 설정 → 개인 정보 보호 및 보안 → 손쉬운 사용으로 이동하여 CleanKeyboard를 활성화하세요.";
+
+/* Language picker */
+"language.picker" = "언어";

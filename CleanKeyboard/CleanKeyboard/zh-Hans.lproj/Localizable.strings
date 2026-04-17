@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "安全的键盘清洁模式";
+
+/* Status badge */
+"status.locked" = "键盘已锁定";
+"status.active" = "键盘活跃中";
+
+/* Description text */
+"description.locked" = "所有按键已被屏蔽。\n您现在可以安全地清洁键盘。";
+"description.unlocked" = "点击下方按钮以锁定\n键盘进行清洁。";
+
+/* Toggle button */
+"button.unlock" = "解锁键盘";
+"button.lock" = "锁定键盘";
+
+/* Accessibility alert */
+"alert.title" = "需要辅助功能权限";
+"alert.openSettings" = "打开系统设置";
+"alert.cancel" = "取消";
+"alert.message" = "CleanKeyboard 需要辅助功能权限以拦截键盘事件。\n\n前往系统设置 → 隐私与安全性 → 辅助功能，并启用 CleanKeyboard。";
+
+/* Language picker */
+"language.picker" = "语言";

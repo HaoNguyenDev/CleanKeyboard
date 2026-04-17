@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "Safe keyboard cleaning mode";
+
+/* Status badge */
+"status.locked" = "Keyboard Locked";
+"status.active" = "Keyboard Active";
+
+/* Description text */
+"description.locked" = "All key presses are blocked.\nYou can now safely clean your keyboard.";
+"description.unlocked" = "Press the button below to lock\nyour keyboard for cleaning.";
+
+/* Toggle button */
+"button.unlock" = "Unlock Keyboard";
+"button.lock" = "Lock Keyboard";
+
+/* Accessibility alert */
+"alert.title" = "Accessibility Permission Required";
+"alert.openSettings" = "Open System Settings";
+"alert.cancel" = "Cancel";
+"alert.message" = "CleanKeyboard needs Accessibility access to intercept keyboard events.\n\nGo to System Settings → Privacy & Security → Accessibility and enable CleanKeyboard.";
+
+/* Language picker */
+"language.picker" = "Language";

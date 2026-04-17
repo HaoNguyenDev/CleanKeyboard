@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "Mode nettoyage du clavier sécurisé";
+
+/* Status badge */
+"status.locked" = "Clavier verrouillé";
+"status.active" = "Clavier actif";
+
+/* Description text */
+"description.locked" = "Toutes les touches sont bloquées.\nVous pouvez nettoyer votre clavier en toute sécurité.";
+"description.unlocked" = "Appuyez sur le bouton ci-dessous pour\nverrouiller votre clavier avant le nettoyage.";
+
+/* Toggle button */
+"button.unlock" = "Déverrouiller le clavier";
+"button.lock" = "Verrouiller le clavier";
+
+/* Accessibility alert */
+"alert.title" = "Permission d'accessibilité requise";
+"alert.openSettings" = "Ouvrir les préférences système";
+"alert.cancel" = "Annuler";
+"alert.message" = "CleanKeyboard a besoin de l'accès Accessibilité pour intercepter les événements clavier.\n\nAllez dans Réglages système → Confidentialité et sécurité → Accessibilité et activez CleanKeyboard.";
+
+/* Language picker */
+"language.picker" = "Langue";
