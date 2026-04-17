@@ -52,7 +52,7 @@ Installation
 Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/CleanKeyboard.git
+git clone https://github.com/HaoNguyenDev/CleanKeyboard.git
 Open CleanKeyboard.xcodeproj in Xcode.
 
 In the Signing & Capabilities tab, ensure App Sandbox is disabled (required for Event Taps to function).
