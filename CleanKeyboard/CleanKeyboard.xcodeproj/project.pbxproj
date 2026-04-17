@@ -120,9 +120,10 @@
 		DA3A517C2F92081200F155F3 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DA3A517E2F92081200F155F3 /* CleanKeyboardApp.swift */,
 				DA3A519B2F92082700F155F3 /* Views */,
 				DA3A519A2F92081900F155F3 /* Manager */,
-				DA3A517E2F92081200F155F3 /* CleanKeyboardApp.swift */,
+				DA3A51A42F921FAE00F155F3 /* Localizable */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -133,7 +134,6 @@
 				DA3A517C2F92081200F155F3 /* App */,
 				DA3A517D2F92081200F155F3 /* Assets.xcassets */,
 				DA3A517F2F92081200F155F3 /* Info.plist */,
-				DA3A518B2F92081200F155F3 /* Localizable.strings */,
 				DA3A518E2F92081200F155F3 /* PROJECT_NOTES.md */,
 			);
 			path = CleanKeyboard;
@@ -152,10 +152,26 @@
 			isa = PBXGroup;
 			children = (
 				DA3A518D2F92081200F155F3 /* MainView.swift */,
+				DA3A51A32F921F8E00F155F3 /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA3A51A32F921F8E00F155F3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
 				DA3A51812F92081200F155F3 /* LanguagePickerView.swift */,
 				DA3A51822F92081200F155F3 /* LedBorderButton.swift */,
 			);
-			path = Views;
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DA3A51A42F921FAE00F155F3 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A518B2F92081200F155F3 /* Localizable.strings */,
+			);
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

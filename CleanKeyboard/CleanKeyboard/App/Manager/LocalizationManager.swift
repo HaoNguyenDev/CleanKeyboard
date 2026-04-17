@@ -60,11 +60,13 @@ final class LocalizationManager: ObservableObject {
 
     private static let userDefaultsKey = "selectedAppLanguage"
 
+    private let defaults: UserDefaults
     @Published private(set) var currentLanguage: AppLanguage
     @Published private(set) var bundle: Bundle
 
-    init() {
-        let savedCode = UserDefaults.standard.string(forKey: Self.userDefaultsKey) ?? "en"
+    init(defaults: UserDefaults = .standard) {
+        self.defaults = defaults
+        let savedCode = defaults.string(forKey: Self.userDefaultsKey) ?? "en"
         let language = AppLanguage(rawValue: savedCode) ?? .english
         self.currentLanguage = language
         self.bundle = Self.loadBundle(for: language)
@@ -80,7 +82,7 @@ final class LocalizationManager: ObservableObject {
         guard language != currentLanguage else { return }
         currentLanguage = language
         bundle = Self.loadBundle(for: language)
-        UserDefaults.standard.set(language.rawValue, forKey: Self.userDefaultsKey)
+        defaults.set(language.rawValue, forKey: Self.userDefaultsKey)
     }
 
     /// Loads the Bundle from the `.lproj` directory for the given language.
