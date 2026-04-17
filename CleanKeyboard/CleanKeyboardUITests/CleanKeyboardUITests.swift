@@ -9,33 +9,60 @@ import XCTest
 
 final class CleanKeyboardUITests: XCTestCase {
 
+    private var app: XCUIApplication!
+
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        // Reset to English so tests have deterministic labels.
+        app.launchArguments = ["--reset-language"]
+        app.launch()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        app = nil
+    }
+
+    // MARK: - Launch
+
+    @MainActor
+    func testAppLaunchesAndShowsWindow() throws {
+        XCTAssertTrue(app.windows.firstMatch.exists)
+    }
+
+    // MARK: - Initial state
+
+    @MainActor
+    func testLockButtonExistsOnLaunch() throws {
+        // The lock button should be visible before any interaction.
+        let lockButton = app.buttons["Lock Keyboard"]
+        XCTAssertTrue(lockButton.waitForExistence(timeout: 3))
     }
 
     @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+    func testAppTitleIsVisible() throws {
+        let title = app.staticTexts["Clean Keyboard"]
+        XCTAssertTrue(title.waitForExistence(timeout: 3))
+    }
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    // MARK: - Language Picker
+
+    @MainActor
+    func testLanguagePickerExists() throws {
+        // The picker is the menu button in the top-right corner (flag emoji).
+        let picker = app.popUpButtons.firstMatch
+        XCTAssertTrue(picker.waitForExistence(timeout: 3))
     }
 
     @MainActor
-    func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
-        }
+    func testLanguagePickerOpens() throws {
+        let picker = app.popUpButtons.firstMatch
+        XCTAssertTrue(picker.waitForExistence(timeout: 3))
+        picker.click()
+        // After clicking, a menu item for one of the supported languages should appear.
+        let germanItem = app.menuItems["🇩🇪 Deutsch"]
+        XCTAssertTrue(germanItem.waitForExistence(timeout: 3))
+        // Dismiss by pressing Escape.
+        app.typeKey(.escape, modifierFlags: [])
     }
 }
