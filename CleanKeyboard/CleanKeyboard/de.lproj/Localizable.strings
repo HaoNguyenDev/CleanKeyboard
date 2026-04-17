@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "Sicherer Tastatur-Reinigungsmodus";
+
+/* Status badge */
+"status.locked" = "Tastatur gesperrt";
+"status.active" = "Tastatur aktiv";
+
+/* Description text */
+"description.locked" = "Alle Tastenanschläge sind blockiert.\nSie können Ihre Tastatur jetzt sicher reinigen.";
+"description.unlocked" = "Drücken Sie die Schaltfläche unten, um\ndie Tastatur für die Reinigung zu sperren.";
+
+/* Toggle button */
+"button.unlock" = "Tastatur entsperren";
+"button.lock" = "Tastatur sperren";
+
+/* Accessibility alert */
+"alert.title" = "Eingabehilfe-Berechtigung erforderlich";
+"alert.openSettings" = "Systemeinstellungen öffnen";
+"alert.cancel" = "Abbrechen";
+"alert.message" = "CleanKeyboard benötigt Zugriff auf die Eingabehilfe, um Tastaturereignisse abzufangen.\n\nGehen Sie zu Systemeinstellungen → Datenschutz & Sicherheit → Eingabehilfe und aktivieren Sie CleanKeyboard.";
+
+/* Language picker */
+"language.picker" = "Sprache";

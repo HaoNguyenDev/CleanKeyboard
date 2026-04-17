@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "安全なキーボードクリーニングモード";
+
+/* Status badge */
+"status.locked" = "キーボードがロック中";
+"status.active" = "キーボードがアクティブ";
+
+/* Description text */
+"description.locked" = "すべてのキー入力がブロックされています。\n安全にキーボードを掃除できます。";
+"description.unlocked" = "下のボタンを押してキーボードを\nロックしてから掃除してください。";
+
+/* Toggle button */
+"button.unlock" = "キーボードのロックを解除";
+"button.lock" = "キーボードをロック";
+
+/* Accessibility alert */
+"alert.title" = "アクセシビリティの許可が必要です";
+"alert.openSettings" = "システム設定を開く";
+"alert.cancel" = "キャンセル";
+"alert.message" = "CleanKeyboard はキーボードイベントを傍受するためにアクセシビリティのアクセス権が必要です。\n\nシステム設定 → プライバシーとセキュリティ → アクセシビリティ に移動して、CleanKeyboard を有効にしてください。";
+
+/* Language picker */
+"language.picker" = "言語";

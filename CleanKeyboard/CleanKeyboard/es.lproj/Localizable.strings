@@ -1,0 +1,24 @@
+/* App header */
+"app.title" = "Clean Keyboard";
+"app.subtitle" = "Modo de limpieza segura del teclado";
+
+/* Status badge */
+"status.locked" = "Teclado bloqueado";
+"status.active" = "Teclado activo";
+
+/* Description text */
+"description.locked" = "Todas las teclas están bloqueadas.\nAhora puede limpiar su teclado de forma segura.";
+"description.unlocked" = "Pulse el botón de abajo para bloquear\nsu teclado antes de limpiarlo.";
+
+/* Toggle button */
+"button.unlock" = "Desbloquear teclado";
+"button.lock" = "Bloquear teclado";
+
+/* Accessibility alert */
+"alert.title" = "Se requiere permiso de accesibilidad";
+"alert.openSettings" = "Abrir Configuración del sistema";
+"alert.cancel" = "Cancelar";
+"alert.message" = "CleanKeyboard necesita acceso de Accesibilidad para interceptar eventos del teclado.\n\nVaya a Configuración del sistema → Privacidad y seguridad → Accesibilidad y active CleanKeyboard.";
+
+/* Language picker */
+"language.picker" = "Idioma";

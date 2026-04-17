@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3A51902F92081200F155F3 /* CleanKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A517E2F92081200F155F3 /* CleanKeyboardApp.swift */; };
+		DA3A51912F92081200F155F3 /* KeyboardLockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A51802F92081200F155F3 /* KeyboardLockManager.swift */; };
+		DA3A51922F92081200F155F3 /* LanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A51812F92081200F155F3 /* LanguagePickerView.swift */; };
+		DA3A51932F92081200F155F3 /* LedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A51822F92081200F155F3 /* LedBorderButton.swift */; };
+		DA3A51942F92081200F155F3 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A518C2F92081200F155F3 /* LocalizationManager.swift */; };
+		DA3A51952F92081200F155F3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A518D2F92081200F155F3 /* MainView.swift */; };
+		DA3A51962F92081200F155F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3A517D2F92081200F155F3 /* Assets.xcassets */; };
+		DA3A51972F92081200F155F3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3A517F2F92081200F155F3 /* Info.plist */; };
+		DA3A51982F92081200F155F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3A518B2F92081200F155F3 /* Localizable.strings */; };
+		DA3A51992F92081200F155F3 /* PROJECT_NOTES.md in Resources */ = {isa = PBXBuildFile; fileRef = DA3A518E2F92081200F155F3 /* PROJECT_NOTES.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3A51492F91E58E00F155F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3A51332F91E58C00F155F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3A513A2F91E58C00F155F3;
+			remoteInfo = CleanKeyboard;
+		};
+		DA3A51532F91E58E00F155F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3A51332F91E58C00F155F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3A513A2F91E58C00F155F3;
+			remoteInfo = CleanKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA3A513B2F91E58C00F155F3 /* CleanKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3A51482F91E58E00F155F3 /* CleanKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3A51522F91E58E00F155F3 /* CleanKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3A517D2F92081200F155F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3A517E2F92081200F155F3 /* CleanKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanKeyboardApp.swift; sourceTree = "<group>"; };
+		DA3A517F2F92081200F155F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3A51802F92081200F155F3 /* KeyboardLockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLockManager.swift; sourceTree = "<group>"; };
+		DA3A51812F92081200F155F3 /* LanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerView.swift; sourceTree = "<group>"; };
+		DA3A51822F92081200F155F3 /* LedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedBorderButton.swift; sourceTree = "<group>"; };
+		DA3A51832F92081200F155F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A51842F92081200F155F3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A51852F92081200F155F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A51862F92081200F155F3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A51872F92081200F155F3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A51882F92081200F155F3 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A51892F92081200F155F3 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA3A518A2F92081200F155F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DA3A518C2F92081200F155F3 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		DA3A518D2F92081200F155F3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DA3A518E2F92081200F155F3 /* PROJECT_NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROJECT_NOTES.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA3A514B2F91E58E00F155F3 /* CleanKeyboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CleanKeyboardTests;
+			sourceTree = "<group>";
+		};
+		DA3A51552F91E58E00F155F3 /* CleanKeyboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CleanKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3A51382F91E58C00F155F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3A51452F91E58E00F155F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3A514F2F91E58E00F155F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA3A51322F91E58C00F155F3 = {
+			isa = PBXGroup;
+			children = (
+				DA3A518F2F92081200F155F3 /* CleanKeyboard */,
+				DA3A514B2F91E58E00F155F3 /* CleanKeyboardTests */,
+				DA3A51552F91E58E00F155F3 /* CleanKeyboardUITests */,
+				DA3A513C2F91E58C00F155F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3A513C2F91E58C00F155F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A513B2F91E58C00F155F3 /* CleanKeyboard.app */,
+				DA3A51482F91E58E00F155F3 /* CleanKeyboardTests.xctest */,
+				DA3A51522F91E58E00F155F3 /* CleanKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3A517C2F92081200F155F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A519B2F92082700F155F3 /* Views */,
+				DA3A519A2F92081900F155F3 /* Manager */,
+				DA3A517E2F92081200F155F3 /* CleanKeyboardApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DA3A518F2F92081200F155F3 /* CleanKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A517C2F92081200F155F3 /* App */,
+				DA3A517D2F92081200F155F3 /* Assets.xcassets */,
+				DA3A517F2F92081200F155F3 /* Info.plist */,
+				DA3A518B2F92081200F155F3 /* Localizable.strings */,
+				DA3A518E2F92081200F155F3 /* PROJECT_NOTES.md */,
+			);
+			path = CleanKeyboard;
+			sourceTree = "<group>";
+		};
+		DA3A519A2F92081900F155F3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A51802F92081200F155F3 /* KeyboardLockManager.swift */,
+				DA3A518C2F92081200F155F3 /* LocalizationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DA3A519B2F92082700F155F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A518D2F92081200F155F3 /* MainView.swift */,
+				DA3A51812F92081200F155F3 /* LanguagePickerView.swift */,
+				DA3A51822F92081200F155F3 /* LedBorderButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3A513A2F91E58C00F155F3 /* CleanKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3A515C2F91E58E00F155F3 /* Build configuration list for PBXNativeTarget "CleanKeyboard" */;
+			buildPhases = (
+				DA3A51372F91E58C00F155F3 /* Sources */,
+				DA3A51382F91E58C00F155F3 /* Frameworks */,
+				DA3A51392F91E58C00F155F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanKeyboard;
+			packageProductDependencies = (
+			);
+			productName = CleanKeyboard;
+			productReference = DA3A513B2F91E58C00F155F3 /* CleanKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3A51472F91E58E00F155F3 /* CleanKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3A515F2F91E58E00F155F3 /* Build configuration list for PBXNativeTarget "CleanKeyboardTests" */;
+			buildPhases = (
+				DA3A51442F91E58E00F155F3 /* Sources */,
+				DA3A51452F91E58E00F155F3 /* Frameworks */,
+				DA3A51462F91E58E00F155F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3A514A2F91E58E00F155F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3A514B2F91E58E00F155F3 /* CleanKeyboardTests */,
+			);
+			name = CleanKeyboardTests;
+			packageProductDependencies = (
+			);
+			productName = CleanKeyboardTests;
+			productReference = DA3A51482F91E58E00F155F3 /* CleanKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA3A51512F91E58E00F155F3 /* CleanKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3A51622F91E58E00F155F3 /* Build configuration list for PBXNativeTarget "CleanKeyboardUITests" */;
+			buildPhases = (
+				DA3A514E2F91E58E00F155F3 /* Sources */,
+				DA3A514F2F91E58E00F155F3 /* Frameworks */,
+				DA3A51502F91E58E00F155F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3A51542F91E58E00F155F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3A51552F91E58E00F155F3 /* CleanKeyboardUITests */,
+			);
+			name = CleanKeyboardUITests;
+			packageProductDependencies = (
+			);
+			productName = CleanKeyboardUITests;
+			productReference = DA3A51522F91E58E00F155F3 /* CleanKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3A51332F91E58C00F155F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					DA3A513A2F91E58C00F155F3 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					DA3A51472F91E58E00F155F3 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = DA3A513A2F91E58C00F155F3;
+					};
+					DA3A51512F91E58E00F155F3 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = DA3A513A2F91E58C00F155F3;
+					};
+				};
+			};
+			buildConfigurationList = DA3A51362F91E58C00F155F3 /* Build configuration list for PBXProject "CleanKeyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+				"zh-Hans",
+				ja,
+				fr,
+				es,
+				ko,
+				de,
+			);
+			mainGroup = DA3A51322F91E58C00F155F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA3A513C2F91E58C00F155F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3A513A2F91E58C00F155F3 /* CleanKeyboard */,
+				DA3A51472F91E58E00F155F3 /* CleanKeyboardTests */,
+				DA3A51512F91E58E00F155F3 /* CleanKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3A51392F91E58C00F155F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3A51962F92081200F155F3 /* Assets.xcassets in Resources */,
+				DA3A51972F92081200F155F3 /* Info.plist in Resources */,
+				DA3A51982F92081200F155F3 /* Localizable.strings in Resources */,
+				DA3A51992F92081200F155F3 /* PROJECT_NOTES.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3A51462F91E58E00F155F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3A51502F91E58E00F155F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3A51372F91E58C00F155F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3A51902F92081200F155F3 /* CleanKeyboardApp.swift in Sources */,
+				DA3A51912F92081200F155F3 /* KeyboardLockManager.swift in Sources */,
+				DA3A51922F92081200F155F3 /* LanguagePickerView.swift in Sources */,
+				DA3A51932F92081200F155F3 /* LedBorderButton.swift in Sources */,
+				DA3A51942F92081200F155F3 /* LocalizationManager.swift in Sources */,
+				DA3A51952F92081200F155F3 /* MainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3A51442F91E58E00F155F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3A514E2F91E58E00F155F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3A514A2F91E58E00F155F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3A513A2F91E58C00F155F3 /* CleanKeyboard */;
+			targetProxy = DA3A51492F91E58E00F155F3 /* PBXContainerItemProxy */;
+		};
+		DA3A51542F91E58E00F155F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3A513A2F91E58C00F155F3 /* CleanKeyboard */;
+			targetProxy = DA3A51532F91E58E00F155F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA3A518B2F92081200F155F3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3A51832F92081200F155F3 /* en */,
+				DA3A51842F92081200F155F3 /* de */,
+				DA3A51852F92081200F155F3 /* es */,
+				DA3A51862F92081200F155F3 /* fr */,
+				DA3A51872F92081200F155F3 /* ja */,
+				DA3A51882F92081200F155F3 /* ko */,
+				DA3A51892F92081200F155F3 /* vi */,
+				DA3A518A2F92081200F155F3 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3A515A2F91E58E00F155F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3A515B2F91E58E00F155F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DA3A515D2F91E58E00F155F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haonguyen.cleankeyboard.CleanKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA3A515E2F91E58E00F155F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haonguyen.cleankeyboard.CleanKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DA3A51602F91E58E00F155F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haonguyen.cleankeyboard.CleanKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CleanKeyboard";
+			};
+			name = Debug;
+		};
+		DA3A51612F91E58E00F155F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haonguyen.cleankeyboard.CleanKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CleanKeyboard";
+			};
+			name = Release;
+		};
+		DA3A51632F91E58E00F155F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haonguyen.cleankeyboard.CleanKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CleanKeyboard;
+			};
+			name = Debug;
+		};
+		DA3A51642F91E58E00F155F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7W4R2D2VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haonguyen.cleankeyboard.CleanKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CleanKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3A51362F91E58C00F155F3 /* Build configuration list for PBXProject "CleanKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3A515A2F91E58E00F155F3 /* Debug */,
+				DA3A515B2F91E58E00F155F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3A515C2F91E58E00F155F3 /* Build configuration list for PBXNativeTarget "CleanKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3A515D2F91E58E00F155F3 /* Debug */,
+				DA3A515E2F91E58E00F155F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3A515F2F91E58E00F155F3 /* Build configuration list for PBXNativeTarget "CleanKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3A51602F91E58E00F155F3 /* Debug */,
+				DA3A51612F91E58E00F155F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3A51622F91E58E00F155F3 /* Build configuration list for PBXNativeTarget "CleanKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3A51632F91E58E00F155F3 /* Debug */,
+				DA3A51642F91E58E00F155F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3A51332F91E58C00F155F3 /* Project object */;
+}
